@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="main bg-black h-screen flex">
+
+        <!-- sidepanel -->
+
+        <div class="side w-[73px] h-screen border-r
+             border-gray-500 text-white text-2xl flex flex-col items-center justify-between">
+            <i class="fa-solid fa-hourglass mt-5 cursor-pointer"></i>
+            <div>
+                <i class="fa-sharp fa-solid fa-house cursor-pointer text-xl"></i>
+                <div class="mt-3 h-[2px] bg-blue-500"></div>
+            </div>
+            <i class="fa-regular fa-square-minus cursor-pointer text-gray-500"></i>
+            <i class="fa-regular fa-file-lines cursor-pointer text-gray-500"></i>
+            <i class="fa-regular fa-bookmark cursor-pointer text-gray-500 text-xl"></i>
+            <i class="fa-solid fa-m mb-60 cursor-pointer text-gray-500 text-xl"></i>
+        </div>
+
+        <!-- 2 panel -->
+
+        <div class="2panel w-64 h-screen text-white text-sm">
+            <p class="ml-[10px] mt-5 mb-[36px]">Home</p>
+            <div class="flex flex-col items-center">
+                <div
+                    class="h-11 w-[237px] rounded-md border-[0.1px] border-white border-opacity-25 bg-white bg-opacity-5 pt-3 pl-[14px] text-xs mb-[9px] cursor-pointer">
+                    Wall</div>
+                <div
+                    class="h-11 w-[237px] rounded-md hover:border-[0.1px] border-gray-600 pt-3 pl-[14px] text-xs mb-[9px] cursor-pointer">
+                    Market <i class="fa-solid fa-chevron-right fa-lg ml-[157px] text-gray-400"></i></div>
+                <div
+                    class="h-11 w-[237px] rounded-md hover:border-[0.1px] border-gray-600 pt-3 pl-[14px] text-xs mb-[9px] cursor-pointer">
+                    Trade <i class="fa-solid fa-chevron-right fa-lg ml-[165px] text-gray-400"></i></div>
+                <div
+                    class="h-11 w-[237px] rounded-md hover:border-[0.1px] border-gray-600 pt-3 pl-[14px] text-xs mb-[9px] cursor-pointer">
+                    F & O <i class="fa-solid fa-chevron-right fa-lg ml-[163px] text-gray-400"></i></div>
+                <div
+                    class="h-11 w-[237px] rounded-md hover:border-[0.1px] border-gray-600 pt-3 pl-[14px] text-xs mb-[9px] cursor-pointer">
+                    Invest <i class="fa-solid fa-chevron-right fa-lg ml-[163px] text-gray-400"></i></div>
+                <div
+                    class="h-11 w-[237px] rounded-md hover:border-[0.1px] border-gray-600 pt-3 pl-[14px] text-xs mb-[9px] cursor-pointer">
+                    Insights <i class="fa-solid fa-chevron-right fa-lg ml-[153px] text-gray-400"></i></div>
+                <div
+                    class="h-11 w-[237px] rounded-md hover:border-[0.1px] border-gray-600 pt-3 pl-[14px] text-xs mb-[9px] cursor-pointer">
+                    Market Update <i class="fa-solid fa-chevron-right fa-lg ml-[115px] text-gray-400"></i></div>
+            </div>
+        </div>
+
+        <!-- 3panel -->
+
+        <div class="3side w-[1018px] pl-6">
+            <div class="mt-3 mb-3 bg-black">
+                <i class="fa-solid fa-magnifying-glass fa-base text-gray-500"></i>
+                <input type="text" placeholder="Search Stock"
+                    class="bg-black ml-2 w-[920px] outline-none text-sm text-gray-900">
+            </div>
+            <div class="border-gray-800 w-[1000px] border-b-[0.5px]"> </div>
+            <div class="pt-[22px] pb-[22px] flex justify-between">
+                <p class="text-white flex items-center  text-lg">Wall</p>
+                <input class="h-0 w-0 ">
+                <label class="h-[42px] w-[110px] bg-slate-800 rounded-full flex justify-evenly items-center">
+                    <img src="Flag_of_India.svg.png" class="h-8 w-8 rounded-full">
+                    <img src="1920px-Flag_of_the_United_States.svg.webp" class="h-8 w-8 rounded-full">
+                </label>
+            </div>
+            <div class="flex flex-wrap content-start gap-5">
+                <div
+                    class="h-[215px] w-[487px] bg-white bg-opacity-5 rounded-2xl flex flex-col justify-center items-center">
+                    <p class="text-lg text-white font-semibold">Market Mood</p>
+                    <div class="h-[16px] w-[460px] bg-[#f89340] rounded-2xl mt-3 mb-3"></div>
+                    <p class="text-[17px] text-white">There is Greed in the market </p>
+                    <p class="text-[17px] text-white">Invest, but with caution.</p>
+                </div>
+                <div
+                    class="h-[215px] w-[487px] bg-white bg-opacity-5 rounded-2xl text-white flex flex-col justify-evenly items-center text-lg font-semibold">
+                    <div>Indices</div>
+                    <div class="flex text-base">
+                        <div class="flex flex-col items-center mr-24">
+                            <p>NIFTY</p>
+                            <p class="text-[#FF0000]">22419.95(-0.67%)</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <p>BANKNIFTY</p>
+                            <p class="text-[#FF0000]">48201.05(-0.61%)</p>
+                        </div>
+                    </div>
+                    <div class="flex text-base">
+                        <div class="flex flex-col items-center mr-24">
+                            <p>SENSEX</p>
+                            <p class="text-[#FF0000]">73730.16(-0.82%)</p>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <p>INDIA VIX</p>
+                            <p class="text-[#0000FF]">10.93(+1.86%)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[238px] w-[316px] bg-white bg-opacity-5 rounded-2xl text-white pl-5 pr-5 pt-7">
+                    <p class="text-lg font-semibold">Gift Nifty</p>
+                    <p class="text-[#0000FF]">23638.00</p>
+                    <p class="text-[#0000FF] mb-4">+75.50(+0.33%)</p>
+                    <div class="flex flex-row justify-between">
+                        <p>Open</p>
+                        <p>22555.50</p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <p>High</p>
+                        <p>0.00</p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <p>Low</p>
+                        <p>0.00</p>
+                    </div>
+                </div>
+                <div class="h-[238px] w-[316px] bg-white bg-opacity-5 rounded-2xl text-white pl-5 pr-5 pt-4">
+                    <p class="text-[15px] font-semibold mb-9">Advances/Declines</p>
+                    <div class="flex flex-row justify-between mb-3 text-[13px]">
+                        <p>NSE 500</p>
+                        <span class="text-[#0000FF]">337/<span class="text-[#FF0000]">308</span></span>
+                    </div>
+                    <div class="flex flex-row justify-between mb-3 text-[13px]">
+                        <p>F&O</p>
+                        <span class="text-[#0000FF]">113/<span class="text-[#FF0000]">72</span></span>
+                    </div>
+                    <div class="flex flex-row justify-between mb-3 text-[13px]">
+                        <p>Nifty 50</p>
+                        <span class="text-[#0000FF]">16/<span class="text-[#FF0000]">34</span></span>
+                    </div>
+                    <div class="flex flex-row justify-between mb-3 text-[13px]">
+                        <p>Bank Nifty</p>
+                        <span class="text-[#0000FF]">4/<span class="text-[#FF0000]">8</span></span>
+                    </div>
+                </div>
+                <div class="h-[238px] w-[316px] bg-white bg-opacity-5 rounded-2xl text-white pl-5 pr-5 pt-4">
+                    <p class="text-lg font-semibold mb-[37px]">FII/DII Cash Activity</p>
+                    <div class="flex ml-32 items-end">
+                        <div class="bg-[rgb(232,60,60)] h-6 w-3 mr-4"></div>
+                        <div class="bg-[rgb(232,60,60)] h-5 w-3 mr-4"></div>
+                        <div class="bg-[rgb(232,60,60)] h-7 w-3 mr-4"></div>
+                        <div class="bg-[rgb(232,60,60)] h-9 w-3 mr-4"></div>
+                        <div class="bg-[rgb(232,60,60)] h-7 w-3 mr-4"></div>
+                    </div>
+                    <div class="flex ml-28">
+                        <div class="bg-[#0000FF] h-6 w-3 mr-4"></div>
+                        <div class="bg-[#0000FF] h-5 w-3 mr-4"></div>
+                        <div class="bg-[#0000FF] h-7 w-3 mr-4"></div>
+                        <div class="bg-[#0000FF] h-9 w-3 mr-4"></div>
+                        <div class="bg-[#0000FF] h-7 w-3 mr-4"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
